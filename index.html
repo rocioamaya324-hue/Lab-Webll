@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Danira Viana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <img src="danira.jpeg" alt="Fotografía del Diseñador" class="profile-photo">
+            <h1>Danira Viana</h1>
+            <p class="tagline">Diseñar es transformar ideas en experiencias que comunican y perduran.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Acerca de Mí</h2>
+            <p>Soy una mente creativa que encuentra en el diseño una forma de expresión y en cada proyecto, una oportunidad para conectar ideas con emociones./p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portafolio</h2>
+            <div class="gallery">
+                <div class="portfolio-item">
+                    <img src="1.jpeg" alt="Descripción del Proyecto 1">
+                    <div class="overlay">
+                        <h3>Anuncio Publicitario</h3>
+                        <p>Composición en blanco y negro que fusiona naturaleza y lujo. El perfume se acompaña de tigres blancos en un entorno glacial, transmitiendo fuerza, pureza y sofisticación.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="2.jpeg" alt="Descripción del Proyecto 2">
+                    <div class="overlay">
+                        <h3>Anuncio Publicitario</h3>
+                        <p>Diseño colorido ambientado en la selva. El producto se rodea de frutas y fauna salvaje, destacando su carácter natural, vibrante y refrescante.
+</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hablemos</h2>
+            <p>Si tienes un proyecto en mente o simplemente quieres saludar, envíame un mensaje.</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <div id="formStatus"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Danira Viana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
